@@ -33,7 +33,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@deno/mod.js';
+import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@v0.0.2-deno/mod.js';
 ```
 
 #### kebabcase( str )
@@ -62,7 +62,7 @@ str = kebabcase( 'Hello World!' );
 ## Examples
 
 ```javascript
-import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@deno/mod.js';
+import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@v0.0.2-deno/mod.js';
 
 var str = 'foo bar baz';
 var out = kebabcase( str );
