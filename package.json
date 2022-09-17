@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-kebabcase",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convert a string to kebab case.",
   "license": "Apache-2.0",
   "author": {
