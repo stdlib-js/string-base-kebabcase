@@ -44,7 +44,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@esm/index.mjs';
+import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@v0.2.1-esm/index.mjs';
 ```
 
 #### kebabcase( str )
@@ -78,7 +78,7 @@ str = kebabcase( 'Hello World!' );
 <body>
 <script type="module">
 
-import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@esm/index.mjs';
+import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@v0.2.1-esm/index.mjs';
 
 var str = 'foo bar baz';
 var out = kebabcase( str );
