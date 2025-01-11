@@ -37,14 +37,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-kebabcase
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@esm/index.mjs';
+var kebabcase = require( '@stdlib/string-base-kebabcase' );
 ```
 
 #### kebabcase( str )
@@ -72,13 +90,8 @@ str = kebabcase( 'Hello World!' );
 
 ## Examples
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import kebabcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-kebabcase@esm/index.mjs';
+```javascript
+var kebabcase = require( '@stdlib/string-base-kebabcase' );
 
 var str = 'foo bar baz';
 var out = kebabcase( str );
@@ -103,10 +116,6 @@ out = kebabcase( str );
 str = 'Welcome! 😀';
 out = kebabcase( str );
 // returns 'welcome-😀'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -116,6 +125,16 @@ out = kebabcase( str );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/camelcase`][@stdlib/string/base/camelcase]</span><span class="delimiter">: </span><span class="description">convert a string to camel case.</span>
+-   <span class="package-name">[`@stdlib/string-base/lowercase`][@stdlib/string/base/lowercase]</span><span class="delimiter">: </span><span class="description">convert a string to lowercase.</span>
+-   <span class="package-name">[`@stdlib/string-base/pascalcase`][@stdlib/string/base/pascalcase]</span><span class="delimiter">: </span><span class="description">convert a string to Pascal case.</span>
+-   <span class="package-name">[`@stdlib/string-base/snakecase`][@stdlib/string/base/snakecase]</span><span class="delimiter">: </span><span class="description">convert a string to snake case.</span>
+-   <span class="package-name">[`@stdlib/string-base/uppercase`][@stdlib/string/base/uppercase]</span><span class="delimiter">: </span><span class="description">convert a string to uppercase.</span>
 
 </section>
 
@@ -130,7 +149,7 @@ out = kebabcase( str );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -147,7 +166,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -192,6 +211,20 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-kebabcase/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-kebabcase/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/camelcase]: https://github.com/stdlib-js/string-base-camelcase
+
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
+
+[@stdlib/string/base/pascalcase]: https://github.com/stdlib-js/string-base-pascalcase
+
+[@stdlib/string/base/snakecase]: https://github.com/stdlib-js/string-base-snakecase
+
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
+
+<!-- </related-links> -->
 
 </section>
 
